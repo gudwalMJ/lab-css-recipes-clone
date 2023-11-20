@@ -18,7 +18,52 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+  background-image: url("../images/apple-pie.jpg");
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+}
+
+ .header, h1 {
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  font-size: 32px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.section img {
+  width: 60%;
+  margin-top: 50px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 0;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+
+.section p {
+padding-top: 20px;
+padding-bottom: 10px;
+}
+
+
+  .container {
+    width: 60%;
+    margin: 0 auto;
+  }
